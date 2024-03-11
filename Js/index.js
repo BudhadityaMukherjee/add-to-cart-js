@@ -20,7 +20,7 @@ const render = () => {
 
     container.innerHTML = "";
     const userId = getData(names.user);
-    if (!userId) location.replace("./HTML/login.html");
+    if (!userId) location.replace("./Html/login.html");
 
     let productData = getData(names.product);
 
